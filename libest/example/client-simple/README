@@ -1,0 +1,110 @@
+This directory contains a minimal EST client application.  Unlike the
+other example client application that allows granular control over
+the individual EST operations, this example code shows how the
+individual operations are used together during the certificate
+provisioning process.  This README assumes the EST server is
+listening on the local host using port 8085.  The EST process works 
+as follows:
+
+    - First the /cacerts request is sent to the server
+    - Next, the /csrattrs request is sent to the server
+    - The local application creates a certificate request (CSR)
+    - The CSR is sent to the server and a X509 cert is returned.
+    
+To build the example on Windows:
+
+Prerequisite: EST sample applications make use of the GNU getopt library for command line 
+              argument parsing. The getopt library is not a part of the C library provided with
+              Microsoft Visual Studio. An open source port for getopt exists under the LGPL3 license 
+              and must be acquired separately at the link provided below:
+              http://www.codeproject.com/Articles/157001/Full-getopt-Port-for-Unicode-and-Multibyte-Microso
+              Download the archive which provides the two source files getopt.c and getopt.h and place both 
+              source files into the "util" directory.
+
+1.  Set the following environment variables to tell the Gradle build script 
+    where to find your installations of OpenSSL and EST
+
+    EST_DIR - must contain the est.lib link file and est.dll binary
+              
+    set EST_DIR=C:\PathToYourLibraryInstalls\EST
+    
+    SSL_DIR - must contain an "include" subdirectory for the OpenSSL header files,
+              a "bin" subdirectory for the OpenSSL dll binaries, and a "lib" subdirectory
+              for the OpenSSL link files
+    
+    set SSL_DIR=C:\PathToYourLibraryInstalls\OpenSSL
+    
+    PATH - must contain the path to your Visual Studio 2013 VC bin directory 
+           prior to any other Visual Studio bin directory and the path to 
+           your Gradle executable (which should already be in PATH)
+           
+    set PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;%PATH%
+    
+2.  From the "example" directory, type:
+
+    gradle -b build_examples.gradle clean
+    
+    to clean out any prior builds and then:
+    
+    gradle -b build_examples.gradle build
+    
+    to build both estclient and estclient_simple executables.
+    The executables are placed in the directory shown below:
+    
+    example\build\exe\estclient\estclient.exe
+    
+    example\build\exe\estclient_simple\estclient_simple.exe
+           
+To run the example:
+
+1.  Set LD_LIBRARY_PATH to include the directories where libest.so
+    and libcrypto.so are installed. For example... 
+
+    export LD_LIBRARY_PATH=/usr/local/ssl/lib:/usr/local/est/lib
+    
+    On Windows, set the PATH enviromnent variables to where 
+    libeay32.dll and ssleay32.dll are installed and where est.dll 
+    is installed.
+    
+    set PATH=C:\PathToYourLibraryInstalls\EST;C:\PathToYourLibraryInstalls\OpenSSL\bin;%PATH%
+
+2.  Set the following environment variable to specify the location
+    of the file containing the CA certificates used for verifying
+    the server.  In this example we use the trusted certs for
+    the example EST server:
+
+    export EST_OPENSSL_CACERT=../server/estCA/cacert.crt
+
+3.  Connect to the EST server listening on port 8085 and request a 
+    new certificate.  The example EST server uses the user ID and
+    password estuser/estpwd:
+
+    ./estclient_simple  -s 127.0.0.1 -p 8085 -u estuser -h estpwd  
+
+    Note: The user ID and password are hard-coded in this example.  
+          There is currently no way to change the user ID presented 
+	  to the EST server.
+
+
+After successfully provisioning a new certificate, the following
+files are generated in the current working directory:
+
+    newcacerts.pkcs7 This file contains the latest copy of
+                    the CA certifications from the EST server.
+    cert-b64.pkcs7  This file contains the newly provisioned
+                    certificate.
+    new_key.pem     This file contains the new keypair that
+                    was generated when creating the certificate
+		    request.  This contains the private key that
+		    matches the public key in the new cert.
+
+Use this command to view the new CA certs returned by the server:
+
+    openssl base64 -d -in ./newcacerts.pkcs7 | \
+        openssl pkcs7 -inform DER -text -print_certs
+
+Use this command to view the new certificate from the server:
+
+    openssl base64 -d -in ./cert-b64.pkcs7 | \
+        openssl pkcs7 -inform DER -text -print_certs
+

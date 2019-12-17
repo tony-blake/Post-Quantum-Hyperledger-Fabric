@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="UT" name="JEST Unit Test">
+	<target name="UT">
+		<junit fork="yes" printsummary="on">
+		    <sysproperty key="java.library.path" value="/usr/local/est/lib"/>
+			<formatter type="xml"></formatter>
+			<classpath>
+				<pathelement location="../lib/bcpkix-jdk15on-151.jar">
+				</pathelement>
+				<pathelement location="../lib/bcprov-ext-jdk15on-151.jar">
+				</pathelement>
+				<pathelement location="../lib/junit.jar">
+				</pathelement>
+				<pathelement location="../lib/org.hamcrest.core_1.1.0.jar">
+				</pathelement>
+				<pathelement location="bin/jest.jar">
+				</pathelement>
+				<pathelement location="bin">
+				</pathelement>
+				
+			</classpath>
+			<test name="com.cisco.c3m.est.test.UT.PKCS10CertificateRequestTest" todir="results"></test>
+			<test name="com.cisco.c3m.est.test.UT.CACertsTest" todir="results"></test>
+			<test name="com.cisco.c3m.est.test.UT.ESTClientTest" todir="results"></test>
+		</junit>
+	</target>
+</project>
+
+

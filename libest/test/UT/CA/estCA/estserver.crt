@@ -1,0 +1,43 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 745 (0x2e9)
+    Signature Algorithm: ecdsa-with-SHA1
+        Issuer: CN=estExampleCA
+        Validity
+            Not Before: Jul  2 20:25:14 2014 GMT
+            Not After : Jun 14 20:25:14 2026 GMT
+        Subject: CN=127.0.0.1
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:c3:92:ba:cf:fb:8b:bd:ee:bf:8f:6b:45:34:ae:
+                    cf:19:07:48:39:e9:b4:5c:e1:0d:51:e5:c0:be:b4:
+                    67:54:22:ce:e3:35:d4:64:47:5f:c6:52:4a:24:ca:
+                    ab:4e:82:da:9f:33:d4:57:60:bb:65:c4:4e:83:b3:
+                    15:19:bb:90:84
+                ASN1 OID: prime256v1
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                52:DD:D9:3F:FD:87:D9:50:06:45:51:63:9E:49:A1:79:46:FD:04:BE
+            X509v3 Authority Key Identifier: 
+                keyid:66:E5:56:CA:93:2B:02:0B:57:A4:D4:E2:ED:5F:CA:A4:EE:7D:83:F9
+
+    Signature Algorithm: ecdsa-with-SHA1
+         30:44:02:20:17:3c:df:39:b0:04:73:32:de:75:2c:03:c9:e7:
+         38:d7:87:60:ba:e6:b1:64:af:76:b8:79:82:91:87:b4:d8:a8:
+         02:20:59:4b:42:9b:64:d0:d9:10:2c:b9:76:a2:2f:b4:bb:bc:
+         af:db:8d:01:11:1b:ac:9b:1f:64:ec:fa:88:bc:ec:5c
+-----BEGIN CERTIFICATE-----
+MIIBZTCCAQ2gAwIBAgICAukwCQYHKoZIzj0EATAXMRUwEwYDVQQDEwxlc3RFeGFt
+cGxlQ0EwHhcNMTQwNzAyMjAyNTE0WhcNMjYwNjE0MjAyNTE0WjAUMRIwEAYDVQQD
+EwkxMjcuMC4wLjEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATDkrrP+4u97r+P
+a0U0rs8ZB0g56bRc4Q1R5cC+tGdUIs7jNdRkR1/GUkokyqtOgtqfM9RXYLtlxE6D
+sxUZu5CEo00wSzAJBgNVHRMEAjAAMB0GA1UdDgQWBBRS3dk//YfZUAZFUWOeSaF5
+Rv0EvjAfBgNVHSMEGDAWgBRm5VbKkysCC1ek1OLtX8qk7n2D+TAJBgcqhkjOPQQB
+A0cAMEQCIBc83zmwBHMy3nUsA8nnONeHYLrmsWSvdrh5gpGHtNioAiBZS0KbZNDZ
+ECy5dqIvtLu8r9uNAREbrJsfZOz6iLzsXA==
+-----END CERTIFICATE-----

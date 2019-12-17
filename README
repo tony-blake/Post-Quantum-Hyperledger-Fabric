@@ -1,0 +1,23 @@
+### Steps to combine LMS with HLF
+
+1. set up vagrant box for unbuntu bionic
+
+2. install docker https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+3. navigate to /vagrant/Desktop/LMS_HLF/education/LFS171x/fabric-material/tuna-app
+
+4. run ./startFabric.sh
+
+5. enter CLI container -  docker exec -it cli bash
+
+6. apt-get update, apt-get upgrade, apt install vim, apt install make
+
+6. cd 
+
+7.run  ./sslPatches.sh
+
+8. exit CLI
+
+9. npm install, node registerAdmin.js, node registerUser.js, node servers.js
+
+That's it! 
