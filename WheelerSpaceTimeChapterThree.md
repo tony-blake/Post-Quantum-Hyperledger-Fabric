@@ -95,328 +95,417 @@ Okay, here's a detailed scientific summary for each section in Chapter 3, drawin
 This summary provides a comprehensive overview of the key concepts and examples discussed in Chapter 3 of the source material.
 
 
-Okay, here are the detailed numerical and mathematical solutions to all exercises in Chapter 3, using a mixture of markdown, LaTeX, and HTML formatting, incorporating bold text for emphasis, and using bullet points for clarity.
+Okay, here are the detailed solutions to the exercises in Chapter 3, using the same formatting style as before for the mathematical parts, and bolding key concepts for emphasis:
 
 ### Exercise 3-1: Relativity and Swimming
 
-*   **(a)** Time for a swimmer to swim down and back a 30-meter pool:
-    *   Distance = 2 * 30 meters = 60 meters
-    *   Speed = 1 meter/second
-    *   Time = Distance / Speed = 60 meters / (1 meter/second) = **60 seconds**
+This exercise contrasts the behavior of a swimmer with that of light to highlight the principle of relativity.
 
-*   **(b)** Time for a swimmer to swim between two floats moving at 1/3 m/s, 30 meters apart
-    *   **Downstream:**
-        *   Swimmer's speed relative to floats = 1 m/s - 1/3 m/s = 2/3 m/s
-        *   Distance = 30 meters
-        *   Time downstream = 30 meters / (2/3 m/s) = 45 seconds
-    *   **Upstream:**
-        *   Swimmer's speed relative to floats = 1 m/s + 1/3 m/s = 4/3 m/s
-        *   Distance = 30 meters
-        *   Time upstream = 30 meters / (4/3 m/s) = 22.5 seconds
-    *   Total time = 45 seconds + 22.5 seconds = **67.5 seconds**
+**(a) Swimmer in a Stationary Pool**
 
-*   **(c)** No, the total time from A to B and back again is **not independent** of the reference system. The time is different for the stationary pool and the moving floats.
+*   **Distance:** 30 meters down and 30 meters back = 60 meters
+*   **Speed:** 1 meter/second
+*   **Time:** $\text{time} = \frac{\text{distance}}{\text{speed}} = \frac{60 \text{ meters}}{1 \text{ m/s}} = 60 \text{ seconds}$
 
-*   **(d)** Difference between swimmer and light flash:
-    *   For the **swimmer**, the speed relative to the medium (water) is constant, but the speed relative to the floats depends on whether the swimmer is moving with or against the float's motion. The total time for the round trip also depends on the motion of the floats.
-    *   For the **light flash**, the speed is always the same (c) in all free-float frames and the time to complete the round trip is independent of the motion of the spaceship.
+**(b) Swimmer in a Moving Pool**
+
+*   **Speed of Floats:** 1/3 meter/second
+    *   When swimming in the direction of the floats, the swimmer’s speed relative to the floats is 1 - 1/3 = 2/3 m/s. The distance to travel is 30 m. $\text{time} = \frac{\text{distance}}{\text{speed}} = \frac{30 \text{ m}}{2/3 \text{ m/s}} = 45 \text{ seconds}$
+    *   When swimming against the direction of the floats, the swimmer’s speed relative to the floats is 1 + 1/3 = 4/3 m/s. The distance to travel is 30 m. $\text{time} = \frac{\text{distance}}{\text{speed}} = \frac{30 \text{ m}}{4/3 \text{ m/s}} = 22.5 \text{ seconds}$
+*   **Total Time (A to B and back):** 45 seconds + 22.5 seconds = 67.5 seconds
+
+**(c) Time Dependence on Reference System**
+
+*   No, the total time from A to B and back again **is dependent** on the reference system, the time is different for the stationary pool versus the moving floats.
+
+**(d) Key Difference between Swimmer and Light**
+
+*   **The speed of light is the same for all observers regardless of their relative motion, while the speed of the swimmer depends on the motion of the medium and the observer's frame.**
 
 ### Exercise 3-2: Einstein Puzzler
 
-*   According to the Principle of Relativity, the runner will be able to see herself in the mirror, no matter how fast she is running. In the runner's frame, she is at rest, and everything works as it does when she is standing still. The laws of physics are the same in all inertial frames.
+*   **Principle of Relativity:** The laws of physics are the same in all inertial (free-float) reference frames.
+*   **Analysis:** If the runner is in a free-float frame, she cannot tell if she is moving. The mirror reflects light, and if she holds the mirror at arm's length, she will always be able to see her reflection. The relative motion between the runner and the mirror is what matters; as long as the runner and the mirror are not accelerating relative to each other, the image will be normal.
 
 ### Exercise 3-3: Construction of Clocks
 
-*   If all clocks are adjusted to run at the same rate at rest in the lab, then the free-float rocket observer will measure them all to run at the same rate. This is because the laws of physics are the same in all inertial frames. However, the (common) clock rate of these clocks measured by the rocket observer will not be the same as their (common) rate measured by the laboratory observer as they pass by in the rocket. This is because time intervals are not invariant.
+*   **Argument:** All clocks, when accelerated together to a high speed in a rocket and then allowed to move at a constant speed, will measure the same time in the rocket's free-float frame as one another. This is because the laws of physics are the same in all free-float frames; thus all clocks, regardless of their internal mechanisms, will experience time at the same rate relative to the rocket.
+*   **Clock Rate:** The rocket observer **will not** measure the same rate for these clocks as a laboratory observer. Because of time dilation, the lab observer will measure time passing more slowly in the rocket.
 
 ### Exercise 3-4: The Principle of Relativity
 
-*   **(a)** Time it takes for light to go one meter of distance in a vacuum: **yes** (speed of light is constant)
-*   **(b)** Spacetime interval between two events: **yes** (invariant quantity)
-*   **(c)** Kinetic energy of an electron: **no**
-*   **(d)** Value of the mass of the electron: **yes** (fundamental constant)
-*   **(e)** Value of the magnetic field at a given point: **no**
-*   **(f)** Distance between two events: **no**
-*   **(g)** Structure of the DNA molecule: **yes** (laws of physics are the same)
-*   **(h)** Time rate of change of momentum of a neutron: **no** (force is not invariant)
+This exercise tests understanding of quantities that are invariant vs. relative.
+
+*   **(a) Time for light to travel one meter in a vacuum:** **Yes**, this is a fundamental constant.
+*   **(b) Spacetime interval between two events:** **Yes**, this is invariant.
+*   **(c) Kinetic energy of an electron:** **No**, this depends on the frame of reference.
+*   **(d) Value of the mass of the electron:** **Yes**, mass is invariant.
+*   **(e) Value of the magnetic field at a given point:** **No**, electric and magnetic fields transform between frames.
+*   **(f) Distance between two events:** **No**, length is relative.
+*   **(g) Structure of the DNA molecule:** **Yes**, this is a physical property that does not depend on the observer's motion.
+*   **(h) Time rate of change of momentum of a neutron:** **No**, both the momentum and the rate of change are relative.
 
 ### Exercise 3-5: Many Unpowered Rockets
 
-*   Given:
-    *   Event 1: x = 0 light-years, t = 0 years
-    *   Event 2: x = 6 light-years, t = 10 years
-    *   In all rocket frames, event 1 occurs at x' = 0, t' = 0
-*   **(a)** In rocket frame A, event 2 occurs at t' = 14 years.
-    *   We use the invariance of the spacetime interval:
-        *   (t')<sup>2</sup> - (x')<sup>2</sup> = t<sup>2</sup> - x<sup>2</sup>
-        *   14<sup>2</sup> - (x')<sup>2</sup> = 10<sup>2</sup> - 6<sup>2</sup>
-        *   196 - (x')<sup>2</sup> = 100 - 36
-        *   (x')<sup>2</sup> = 196 - 64 = 132
-        *   x' = &plusmn;√132 ≈ **&plusmn;11.49 light-years**
-*   **(b)** In rocket frame B, event 2 occurs at x'' = 5 light-years.
-    *    Using the invariance of the spacetime interval:
-        *   (t'')<sup>2</sup> - (x'')<sup>2</sup> = t<sup>2</sup> - x<sup>2</sup>
-        *   (t'')<sup>2</sup> - 5<sup>2</sup> = 10<sup>2</sup> - 6<sup>2</sup>
-        *   (t'')<sup>2</sup> - 25 = 100 - 36
-        *   (t'')<sup>2</sup> = 89
-        *   t'' = &plusmn;√89 ≈ **&plusmn;9.43 years**
-*   **(c)**  For events 1 and 2 to occur at the same place in rocket frame C, the spacetime interval must be zero:
-    *   t<sup>2</sup> - x<sup>2</sup> = 0
-    *   t<sup>2</sup> = x<sup>2</sup>
-    *  This implies that the speed of light is equal to the speed of the rocket (x/t = 1) or:
-    *   v = x/t = 6/10 = 0.6
-    *   The rocket frame must move at **0.6c**.
-*   **(d)**  The time between events 1 and 2 in frame C is:
-    *   (t')<sup>2</sup> - (x')<sup>2</sup> = t<sup>2</sup> - x<sup>2</sup>
-    *   (t')<sup>2</sup> - 0 = 10<sup>2</sup> - 6<sup>2</sup> = 64
-    *   t' = &plusmn; √64 =  **&plusmn;8 years**
+This exercise applies the concept of the invariant interval.
+
+*   **Given:** Event 1: $(x_1, t_1) = (0, 0)$ and Event 2: $(x_2, t_2) = (6, 10)$. The spacetime interval is invariant between all frames.
+    *   $\Delta s^2 = \Delta t^2 - \Delta x^2 = 10^2 - 6^2 = 100-36 = 64$
+
+**(a) Rocket Frame A:**
+
+*   Given $t'_2 = 14$ years, find $x'_2$:
+    *   $14^2 - x_2'^2 = 64$. Thus,  $x_2'^2 = 196 - 64 = 132$.
+    *   $x'_2 = \sqrt{132} \approx 11.49$ light-years
+
+**(b) Rocket Frame B:**
+*   Given $x''_2 = 5$ light-years, find $t''_2$:
+    *   $t_2''^2 - 5^2 = 64$. Thus, $t_2''^2 = 64 + 25 = 89$
+    *   $t''_2 = \sqrt{89} \approx 9.43$ years
+
+**(c) Rocket Frame C (Events occur at same place):**
+
+*   $\Delta x_C = 0$. So, $\Delta t_C^2 = 64$
+*   $t_C = \sqrt{64} = 8$ years
+*   The rocket must be moving such that $\Delta x_C = 0$
+*   We can calculate this velocity by recognizing that the interval is the time in the frame where the two events occur in the same place. So, in the lab frame, $\Delta x = 6$ and $\Delta t = 10$.
+*   $v = \frac{\Delta x}{\Delta t} = \frac{6}{10} = 0.6$ which is 60% of the speed of light.
+
+**(d) Time between events in Rocket C:**
+
+*   This is the interval, which we calculated is $t_C = 8$ years.
 
 ### Exercise 3-6: Down with Relativity!
 
-*   **(a)** "Observer A says that B's clock goes slow, and observer B says that A's clock goes slow. This is a logical contradiction."
-    *   There is **no contradiction**. Each observer measures the other's clock to be running slow **relative to their own**. This is due to the relativity of simultaneity and time dilation. There is no absolute time, and each observer's measurements are valid in their own frame.
-*   **(b)** "Observer A says that B's meter sticks are contracted, and observer B says that A's meter sticks are contracted. This is a logical contradiction."
-    *   There is **no contradiction**. Each observer measures the other's meter sticks to be contracted in the direction of relative motion, **relative to their own meter sticks**. This is due to Lorentz contraction and is a consequence of how space and time measurements change between frames.
-*   **(c)** "Relativity does not have a unique way to define space and time coordinates for the instantaneous position of an object."
-    *   Relativity acknowledges that space and time coordinates are **relative to the observer's frame**. Different observers will record different coordinates for the same event, but there is no single "correct" frame. The laws of physics remain consistent in all inertial frames. The spacetime interval is invariant.
-*   **(d)** "Relativity postulates that light travels with a standard speed regardless of the free-float frame. This is wrong."
-    *   The postulate that the speed of light is constant in all inertial frames is the **foundation of relativity**. It is supported by experimental evidence and has been verified in numerous experiments. Common sense can be misleading when dealing with relativistic speeds.
-*  **(e)** "There isn't a single experimental test of the results of special relativity."
-    *   This is **incorrect.** There have been **many experimental tests** confirming the results of special relativity. These experiments are often performed at particle accelerators.
-*   **(f)** "Relativity offers no way to describe an event without coordinates."
-    *   While coordinates are useful for describing events within a specific frame, relativity also has an invariant way to describe events by their spacetime interval. Physical events exist independently of the coordinates that we use to describe them.
-*   **(g)** "Relativity is preoccupied with how we observe things, not what is really happening."
-    *   Relativity deals with **measurements** that observers make, but these measurements describe "what really happens" in each observer's frame. The theory is about the relationships between measurements in different inertial frames, not about observation as a subjective experience.
+This exercise addresses common objections to relativity.
+
+**(a) "Clocks go slow" contradiction:**
+*   The apparent contradiction arises from the fact that each observer uses their *own* frame to measure time intervals. Each observer sees the other's clock as running slow relative to their own. This is due to time dilation, a consequence of the geometry of spacetime, not a logical contradiction. The clocks do not "really" go slow, but time is a relative measurement that differs depending on frame of reference.
+
+**(b) "Meter sticks are contracted" contradiction:**
+*   Similarly, each observer uses their own frame to measure lengths. Each sees the other's meter sticks as contracted. This is due to length contraction, a real and measurable effect, not a contradiction. The meter sticks don't "really" shrink, but length is a relative measurement that differs depending on frame of reference.
+
+**(c) "No unique way to define space and time coordinates":**
+*   Relativity acknowledges that space and time coordinates are frame-dependent. However, physical laws and the spacetime interval are frame-independent. The fact that observers record different coordinates doesn’t invalidate the theory, but rather reflects that space and time are relative. It is important to keep track of the frame you're working in.
+
+**(d) "Light doesn't travel at a standard speed":**
+*   The postulate of the constancy of the speed of light applies to the speed of light *in a vacuum* as measured by any inertial observer. This means that the measured speed of light is the same for all inertial observers regardless of their motion or the motion of the source of the light. Common sense intuition about the additive property of velocities does not apply to light.
+
+**(e) "No experimental test":**
+*   There are numerous experimental tests verifying relativity, such as particle accelerator experiments, atomic clock experiments, and the observation of muons at the Earth’s surface.
+
+**(f) "Relativity has no way to describe an event without coordinates":**
+*   While relativity uses coordinates, the coordinates are just tools that describe where and when an event occurs. The physical reality of the event is independent of the coordinate system used to describe it. The interval between events is an example of this.
+
+**(g) "Relativity is preoccupied with observation not reality":**
+*   Relativity deals with how space and time are measured and related. The measurements are real and repeatable. These measurements reveal properties of space and time which are counterintuitive, and may not correspond with one's pre-relativity conception of reality, but the theory is a scientific theory.
 
 ### Exercise 3-7: Space War
 
-*   The problem states that the language is loose and there is an error in the figure. In this case the error is that the drawing makes it seem like the two rockets have a relative velocity, when in fact they are moving at the same velocity and thus *at rest* relative to one another. The problem also states that the gun is fired at the moment that the points a and a' coincide.
+*   **Looseness of Language:** The problem assumes a "snapshot" perspective where each observer can see the other's ship as a whole. It also assumes simultaneity when it is only valid for events that are at the same location as the observer (local simultaneity).
+*   **Error in one figure:** The figure on the right is incorrect. In the frame of 0', 0' observes their own rocket at it's full proper length and measures the rocket of O to be contracted.
+*   **Resolution:** The bullet will always hit in both frames of reference. In the frame of reference of observer O, the bullet is fired perpendicular to the rocket's motion and therefore hits the side of the other rocket. In the frame of reference of observer O', observer O' sees the rocket move past and the bullet as angled such that it will hit the rocket.
+*   **Train Paradox Consistency:** This problem uses the same logic as the train paradox where the position and timing of events are relative and do not contradict each other but provide consistent results from different frames.
 
-* The correct approach is to consider both the frames and to recognize that they are equivalent, there is no preferred frame. In either frame, the bullet is fired perpendicular to the axis of the relative motion, there will be no length contraction for the bullet in the direction perpendicular to the direction of relative motion.
-    *   From the perspective of either observer, **the bullet will hit** the other rocket.
-    *   The error is in assuming that a transverse contraction occurs for either rocket.
+### Exercise 3-8: Čerenkov Radiation
 
-### Exercise 3-8: Cerenkov Radiation
+This exercise explores the phenomenon of Čerenkov radiation.
 
-*   **(a)** Derivation of the half-angle of the light cone
-    *   From the geometry of the cone, cos φ =  V<sub>light</sub>/v, where V<sub>light</sub> is the speed of light in the medium, and v is the speed of the particle.
-*   **(b)** Lucite (V<sub>light</sub> = 2/3)
-    *   Minimum velocity of the particle for Cerenkov radiation:
-        *   cos φ < 1, so V<sub>light</sub>/v < 1
-        *   v > V<sub>light</sub>
-        *   v > 2/3
-        *   Therefore, the minimum speed is **v > 2/3c**
-    *   Maximum angle of Cerenkov radiation:
-        *   cos φ = 2/3
-        *   φ = cos<sup>-1</sup> (2/3) ≈ **48.2 degrees**
-*   **(c)** Water (V<sub>light</sub> = 0.75)
-    *    Minimum velocity of the particle:
-        *    v > V<sub>light</sub>
-        *    v > 0.75
-        *   The minimum speed is **v > 0.75c**
-    *   Maximum angle of Cerenkov radiation:
-        *   cos φ = 0.75
-        *   φ = cos<sup>-1</sup>(0.75) ≈ **41.4 degrees**
+**(a) Derivation of the Half-Angle Formula:**
+
+*   The speed of light in the medium is $v_{\text{light}}$.
+*   The speed of the particle is $v$.
+*   During the time *t*, the particle travels $vt$. The light travels $v_{\text{light}}t$.
+*   The light forms a cone with a half-angle $\phi$.
+*   The cosine of this angle is:
+    *   $\cos \phi = \frac{v_{\text{light}} t}{v t} = \frac{v_{\text{light}}}{v}$
+
+**(b) Lucite:**
+
+*   $v_{\text{light}} = \frac{2}{3}c$
+    *   Minimum velocity for radiation: When $v = v_{\text{light}}$, radiation begins. Therefore, the minimum velocity is $v = \frac{2}{3}c$
+    *   Maximum angle $\phi$:
+        *   $\cos \phi = \frac{v_{\text{light}}}{v} = \frac{2/3c}{c} = \frac{2}{3}$
+        *   $\phi = \arccos{\frac{2}{3}} \approx 48.2^{\circ}$
+
+**(c) Water:**
+
+*   $v_{\text{light}} = 0.75c$
+    *   Minimum velocity for radiation: $v = 0.75c$
+    *   Maximum angle $\phi$:
+         *  $\cos \phi = \frac{v_{\text{light}}}{v} = \frac{0.75c}{c} = 0.75$
+         * $\phi = \arccos(0.75) \approx 41.4^{\circ}$
 
 ### Exercise 3-9: Aberration of Starlight
 
-*   **(a)** Trigonometric expression for aberration angle ψ
-    *   tan ψ = v<sub>Earth</sub> / c
-*   **(b)** Evaluate the expression for v<sub>Earth</sub> = 30 km/s
-    *   tan ψ = (30 * 10<sup>3</sup> m/s) / (3 * 10<sup>8</sup> m/s) = 10<sup>-4</sup>
-    *   ψ = arctan(10<sup>-4</sup>) ≈ 10<sup>-4</sup> radians
-    *   To convert to seconds of arc:
-        *   1 radian = (180/π) degrees
-        *   1 degree = 3600 seconds of arc
-        *   ψ ≈ 10<sup>-4</sup> * (180/π) * 3600 ≈ **20.6 seconds of arc**
-*   **(c)** Is the difference between relativistic and non-relativistic answers a crucial experiment?
-    *   The non-relativistic answer, tan ψ = v<sub>Earth</sub> / c, is approximately the same as the relativistic one for small angles, therefore it is **not** a crucial experiment for deciding between the two theories.
-*   **(d)** Rocket changes velocity to v = 0.5c
-    *   The astronaut will see the star at a different angle, according to the formula tan ψ' = v<sub>rocket</sub> / c
-    *   The new angle can be found using the relativistic addition of velocities.
+This exercise examines how the Earth’s motion affects the apparent position of stars.
+
+**(a) Trigonometric Expression for Aberration Angle:**
+
+*   $\tan \psi = \frac{v_{\text{Earth}}}{c}$
+
+**(b) Evaluation:**
+
+*   $v_{\text{Earth}} = 30 \times 10^3$ m/s
+*   $c = 3 \times 10^8$ m/s
+*   $\tan \psi = \frac{30 \times 10^3}{3 \times 10^8} = 10^{-4}$
+*   $\psi \approx 10^{-4} \text{ radians}$
+*   To convert to seconds of arc:
+    *   $1 \text{ radian} = \frac{180}{\pi} \text{ degrees}$
+    *   $1 \text{ degree} = 3600 \text{ seconds of arc}$
+    *   $\psi \approx 10^{-4} \times \frac{180}{\pi} \times 3600 \approx 20.6$ seconds of arc
+
+**(c) Relativistic vs. Non-Relativistic Answers:**
+
+*   The non-relativistic answer is $\tan \psi = \frac{v_{\text{Earth}}}{c}$  which is the same as the relativistic answer in this case. The difference between the two is only important when the speeds are very large relative to the speed of light.
+*    Because the speed of Earth is so much less than the speed of light, the difference between the relativistic and non-relativistic answers is too small to be detected by experiments.
+
+**(d) Rocket in Orbit:**
+
+*   The direction of the star as seen by the rocket astronaut will be shifted due to aberration.
+*  Let v' be the velocity of Earth and v be the new velocity of the rocket, where v = 0.5. Then $v_{combined} = \frac{v + v'}{1 + vv'}$
+*   The new aberration angle will be greater because the speed of the rocket relative to the sun is greater than the speed of Earth relative to the Sun.
+*    $\tan \psi = \frac{v_{combined}}{c}$
 
 ### Exercise 3-10: The Expanding Universe
 
-*   **(a)** Motion of one fragment relative to another in an explosion
-    *   The fragments move radially away from each other.
-    *   Detection of relative motion: Observe the time between light flashes emitted by the other fragment.
-    *   Formula for v:
-        *   v = c * (dt/dτ -1)/(dt/dτ + 1)
-*   **(b)** How to verify the expansion of the universe from starlight
-    *   The observed period of light from stars is measured on Earth. The atoms in stars emit light at characteristic frequencies.
-    *   When the emitting source is moving away from an observer, the observed period is longer (lower frequency) compared to the period when the source is at rest relative to the observer (redshift).
-    *   The redshift of light from distant galaxies indicates that they are moving away from us, indicating an expanding universe.
-*   **(c)** Recession velocity of a quasar with redshift dtreception /d! = 5.9.
-    *   Using the equation:
-        *   v = c * (5.9-1)/(5.9+1)
-        *   v = c * 4.9/6.9
-        *   v ≈ **0.71c**
+This exercise looks at the consequences of an expanding universe.
+
+**(a) Relative Motion of Fragments:**
+
+*   Relative motion of fragments after a bomb explosion is that each fragment will move radially away from every other fragment. The farther away a fragment is, the faster it will appear to recede from the viewpoint of any other fragment.
+*   **Detection:** The observer measures the time $\Delta t$ between flashes emitted at intervals $\Delta \tau$. Due to time dilation, $\Delta t$ is larger than $\Delta \tau$.
+*   The velocity can be obtained by recognizing that if the fragment is moving away, the next light pulse will take longer to arrive, but if the fragment is moving towards, it will arrive sooner.
+    *  $\Delta t = \frac{\Delta \tau}{\sqrt{1-v^2}}$
+    *   $v = \sqrt{1 - (\frac{\Delta \tau}{\Delta t})^2}$
+*   **Recession Velocity:** The recession velocity increases with distance, because the expansion of space is uniform.
+
+**(b) Verification using Starlight:**
+
+*   The spectral lines of light emitted by stars are shifted to lower frequencies (longer wavelengths) if they are moving away from us. This "redshift" allows us to measure the recession velocity of stars and galaxies.
+
+**(c) Quasar Redshift:**
+
+*   Given $\frac{\Delta t_{\text{reception}}}{\Delta \tau} = 5.9$, find $v$
+*   Using the formula derived in part (a), we have:
+    *  $v = \sqrt{1 - (\frac{1}{5.9})^2} = \sqrt{1 - \frac{1}{34.81}} \approx \sqrt{0.971} \approx 0.985$
+    *   Thus, the quasar's recession velocity is approximately $0.985c$.
 
 ### Exercise 3-11: Law of Addition of Velocities
 
-*   **(a)** Distance traveled by light flash in Earth frame
-    *   Distance = L + v<sub>rel</sub> * t<sub>forward</sub>
-    *   t<sub>forward</sub> = L / (1 - v<sub>rel</sub>)
-    *   Therefore L + v<sub>rel</sub> *  ( L / (1 - v<sub>rel</sub>) ) = L * (1 + v<sub>rel</sub>) / (1 - v<sub>rel</sub>)
-*   **(b)** Time for light flash to reach the back of the bus in Earth frame
-    *   t<sub>backward</sub>  = L / (1 + v<sub>rel</sub>)
-*  **(c)** Ratio of the distance to Fred and the total bus length:
-    *   f = L<sub>Fred</sub> / L
-    *   f = (1 - v<sub>bullet</sub> )/(1 + v<sub>bullet</sub>) * (1 + v<sub>rel</sub>) /(1 - v<sub>rel</sub>)
-*  **(d)** Combined expression:
+This exercise derives the relativistic law of velocity addition.
 
-    *   (1 - v<sub>bullet</sub>)  (1 + v<sub>rel</sub>) = (1 + v<sub>bullet</sub>) (1 - v<sub>rel</sub>)
-*   **(e)**  Result for the spacebus frame:
-    *   (1 - v'<sub>bullet</sub>)  = (1 + v'<sub>bullet</sub>)
-*   **(f)** Law of addition of velocities:
-    *   Equating expressions for f and solving for v<sub>bullet</sub>
-    *    v<sub>bullet</sub> =  (v'<sub>bullet</sub> + v<sub>rel</sub> ) / ( 1 +  v'<sub>bullet</sub> * v<sub>rel</sub>)
-*   **(g)** Consequences
-    *  **(1)**  Express bus on Earth:
-        *  v<sub>rel</sub> = 30 m/s , v'<sub>bullet</sub> = 600 m/s.
-        *  v<sub>rel</sub> ≈ 10<sup>-7</sup> , v'<sub>bullet</sub> ≈ 10<sup>-6</sup> in units of c.
-        *  v'<sub>bullet</sub> * v<sub>rel</sub> is approximately 10<sup>-13</sup>, which is negligible.
-        *  v<sub>bullet</sub> ≈ v'<sub>bullet</sub> + v<sub>rel</sub> (approximate Galilean form)
-    *   **(2)** Bullet and spacebus: v'<sub>bullet</sub> = 3/4, v<sub>rel</sub> = 3/4:
-        *   v<sub>bullet</sub> = (3/4 + 3/4) / (1 + (3/4)*(3/4) ) = (6/4) / (25/16) = **24/25**
-    *   **(3)** Light flash in spacebus: v'<sub>bullet</sub> = 1, v<sub>rel</sub> = 3/4:
-        *   v<sub>bullet</sub>  =  (1 + 3/4) / (1 + 1*(3/4)) = (7/4) / (7/4)  = **1**. The speed of light is constant in all inertial frames.
-    *  **(4)** Light flash toward the back of the bus: v'<sub>bullet</sub> = -1, v<sub>rel</sub> = 3/4:
-        *   v<sub>bullet</sub>  =  (-1 + 3/4) / (1 + (-1)*(3/4)) = (-1/4) / (1/4) = **-1**. The speed of light is constant in all inertial frames.
+**(a) Earth Frame Analysis**
+
+*   Let the space bus have length $L$ and velocity $V_{\text{rel}}$. Let the speed of the bullet be $V_{\text{bullet}}$.
+
+*   Time to reach front of bus in the earth frame is $t_{\text{forward}}$. In this time, the light travels the length of the bus plus the distance the bus travels:
+    *   $t_{\text{forward}} = L + V_{\text{rel}}t_{\text{forward}}$
+
+*   $t_{\text{forward}}(1-V_{\text{rel}}) = L $
+*   $t_{\text{forward}} = \frac{L}{1-V_{\text{rel}}}$
+*   Time for bullet to reach front is $t_b$. In the same way, we have:
+    * $V_{\text{bullet}} t_b =  L + V_{\text{rel}}t_b $
+    * $t_b = \frac{L}{V_{\text{bullet}} - V_{\text{rel}}}$
+
+**(b) Light Flash Race**
+*   Time for the light flash to reach the front: $t_{\text{forward}}$
+    *   $t_{\text{forward}} = \frac{L}{1-V_{\text{rel}}}$
+*   Time for the light flash to reach the back: $t_{\text{backward}}$
+    *   $t_{\text{backward}} = \frac{L}{1+V_{\text{rel}}}$
+
+**(c) Fraction of the Bus**
+*   Let $f$ be the fractional distance of Fred's position relative to the front of the bus as measured from Earth when the flash reaches the back of the bus. We can set this up as:
+    *   $f = \frac{V_{\text{bullet}} \frac{L}{V_{\text{bullet}} + V_{\text{rel}}}}{\frac{L}{V_{\text{bullet}} + V_{\text{rel}}} + \frac{L}{1+V_{\text{rel}}}} = \frac{V_{\text{bullet}} (1+V_{\text{rel}})}{V_{\text{bullet}} + V_{\text{rel}} + 1 + V_{\text{rel}}}$
+
+*   This becomes:
+
+    *   $\frac{t_{\text{forward}}}{t_{\text{backward}}} =  \frac{1+V_{\text{rel}}}{1-V_{\text{rel}}}$
+   *   $\frac{t_{\text{forward}}}{t_{\text{bullet}}} =  \frac{V_{\text{bullet}}-V_{\text{rel}}}{1-V_{\text{rel}}}$
+   *   $\frac{t_{\text{bullet}}}{t_{\text{backward}}} = \frac{1+V_{\text{rel}}}{V_{\text{bullet}} + V_{\text{rel}}}$
+    *  $\frac{t_{\text{bullet}}}{t_{\text{backward}}} = \frac{1+V_{\text{rel}}}{V_{\text{bullet}} + V_{\text{rel}}}$
+*   $\frac{t_{\text{forward}}}{t_{\text{backward}}} \frac{t_{\text{bullet}}}{t_{\text{forward}}} = \frac{t_{\text{bullet}}}{t_{\text{backward}}}$
+    *   $\frac{1+V_{\text{rel}}}{1-V_{\text{rel}}} \frac{V_{\text{bullet}} -V_{\text{rel}}}{1-V_{\text{rel}}} = \frac{1+V_{\text{rel}}}{V_{\text{bullet}} + V_{\text{rel}}}$
+    *   $\frac{V_{\text{bullet}}-V_{\text{rel}}}{1-V_{\text{rel}}} = \frac{V_{\text{bullet}} + V_{\text{rel}}}{1 + V_{\text{rel}}}$
+
+   * $\frac{1 - V_{\text{bullet}}}{1 + V_{\text{bullet}}} = \frac{1 - V_{\text{rel}}}{1 + V_{\text{rel}}}$
+
+**(d) Result for the Earth Frame**
+ * $(1-V_{\text{bullet}})(1 + V_{\text{rel}}) = (1+V_{\text{bullet}})(1-V_{\text{rel}})$
+
+**(e) Space Bus Frame Analysis**
+*   In the bus frame, $V_{\text{rel}} = 0$, and $V_{\text{bullet}}$ becomes $V'_{\text{bullet}}$
+   *  $\frac{1 - V'_{\text{bullet}}}{1 + V'_{\text{bullet}}}$
+
+**(f) Law of Addition of Velocities**
+   *  $\frac{1 - V_{\text{bullet}}}{1 + V_{\text{bullet}}} = \frac{1 - V'_{\text{bullet}}}{1 + V'_{\text{bullet}}}$
+
+    *   $V_{\text{bullet}} = \frac{V'_{\text{bullet}} + V_{\text{rel}}}{1 + V'_{\text{bullet}}V_{\text{rel}}}$
+
+**(g) Consequences**
+
+*   **(1) Everyday Speeds:**
+    *   $V_{\text{rel}} = \frac{30}{3 \times 10^8} = 10^{-7}$
+    *  $V'_{\text{bullet}} = \frac{600}{3 \times 10^8} = 2 \times 10^{-6}$
+   *    $V'_{\text{bullet}}V_{\text{rel}} = 2 \times 10^{-13}$
+
+     The denominator becomes approximately 1.  The formula reduces to $V_{\text{bullet}} = V'_{\text{bullet}} + V_{\text{rel}}$ which is what you would expect from normal experiences.
+*   **(2) Bullet and Spacebus at 3/4 c:**
+     *   $V_{\text{bullet}} = \frac{\frac{3}{4} + \frac{3}{4}}{1 + (\frac{3}{4})^2} = \frac{\frac{3}{2}}{1 + \frac{9}{16}} = \frac{\frac{3}{2}}{\frac{25}{16}} = \frac{3}{2} \times \frac{16}{25} = \frac{24}{25}c$
+    *  $V_{\text{bullet}} = 0.96c$
+*   **(3) Light Flash as a bullet:**
+    *   $V_{\text{bullet}} = \frac{1 + \frac{3}{4}}{1 + \frac{3}{4}} = \frac{\frac{7}{4}}{\frac{7}{4}} = 1$
+        The velocity is the speed of light as measured by earth.
+*   **(4) Light flash emitted from front of bus towards back:**
+     * $V_{\text{bullet}} = \frac{-1 + \frac{3}{4}}{1 + (-1)(\frac{3}{4})} = \frac{-\frac{1}{4}}{\frac{1}{4}} = -1$
+       The velocity is the speed of light as measured by earth in the opposite direction.
 
 ### Exercise 3-12: Michelson-Morley Experiment
 
-*   **(a)** Round-trip time with wind:
-    *   Time with the wind: L / (c+v)
-    *   Time against the wind: L / (c-v)
-    *   Total time: L / (c+v) + L / (c-v) = 2Lc / (c<sup>2</sup> - v<sup>2</sup>)  = (2L/c) / (1-v<sup>2</sup>/c<sup>2</sup>)
-    *   Factor greater than still air: **1/(1 - v<sup>2</sup>/c<sup>2</sup>)**
-    *  The round trip is not the same in the presence of wind because the time spent traveling against the wind is larger than the time saved traveling with the wind.
-    *  As the wind speed is nearly equal to the speed of the airplane, then the plane will take a long time to go upwind.
-*   **(b)** Time for round trip perpendicular to wind
-    *   Time t =  2L/ √(c<sup>2</sup> - v<sup>2</sup>)
-    *   Time difference: (1/√(1-v<sup>2</sup>/c<sup>2</sup>)  - 1)
-*   **(c)** Approximate time difference when v << c:
-    * Using the approximation (1 + z)<sup>n</sup> ≈ 1 + nz for |z| << 1
-    * 1 / (1 - v<sup>2</sup> / c<sup>2</sup>) ≈ 1+ v<sup>2</sup> / c<sup>2</sup>
-    * 2L/c ( 1 + v<sup>2</sup> / c<sup>2</sup> ) -2L/c = 2L v<sup>2</sup> / c<sup>3</sup>
-    *  Time difference: dt ≈ (L/2c)(v/c)<sup>2</sup>
-*   **(d)** Wind speed for airplane discrepancy
-    * Time difference is 4 seconds = (L/2c) * (v/c)<sup>2</sup>
-    * L = 300 km, c = 300 km/hr
-    * v<sup>2</sup> = 4*2*c<sup>3</sup> / L
-    * v =  √ (4*2 * (300)<sup>3</sup> / (300 *1000)
-    * v = √ (2*4*300*300*300)/(300*1000)) =  √ (720) ≈ **26.8 km/hr**
-    *   The wind direction is along the direction connecting the location of the supply drop and the supply depot.
-*   **(e)** Time difference for Michelson-Morley experiment:
-    *   v = 30 * 10<sup>3</sup> m/s
-    *   L = 22 m
-     *Using the approximation derived in (c):*
-    * dt = 22/(2 * 3 * 10<sup>8</sup>) *  (30*10<sup>3</sup> / 3 * 10<sup>8</sup>)<sup>2</sup> = 2.2 *10<sup>-15</sup> seconds
-*   **(f)** Period of sodium light:
-    *   λ = 589 nm = 589 * 10<sup>-9</sup> m
-    *   c = 3 * 10<sup>8</sup> m/s
-    *   fλ = c
-    *   f =  3 * 10<sup>8</sup> / (589 * 10<sup>-9</sup>) ≈ 5 * 10<sup>14</sup> Hz
-    *   T = 1/f = 2 * 10<sup>-15</sup> seconds
-    *   Michelson and Morley result implies that the ether speed was less than 1/100 of 1 wavelength period or:
-    *   1/100 * 2 *10<sup>-15</sup> s / 22 m < 2 / 100 * 10<sup>-16</sup> / 10
-    * The ratio of the speed of the ether to the speed of light is less than 1/6
-*   **(g)** Does the Michelson-Morley experiment disprove the ether theory?
-    *   The Michelson-Morley experiment **did not disprove the existence of the ether**. The experiment demonstrated that the speed of light is the same in all directions. It did not measure the speed of light relative to the ether. It is still possible to modify the ether theory to be consistent with the null result, such as by assuming that the ether moves with matter or that the instruments contract with motion. However, the principle of relativity provides a more straightforward explanation, eliminating the need for an ether.
+This exercise analyzes the Michelson-Morley experiment and related concepts.
+
+**(a) Airplane with Wind (Round Trip along Wind):**
+
+*   Time against the wind:  $t_1 = \frac{L}{c-v}$
+*   Time with the wind:  $t_2 = \frac{L}{c+v}$
+*   Total time:  $t = t_1+ t_2 = \frac{L}{c-v} + \frac{L}{c+v} = \frac{2Lc}{c^2-v^2} = \frac{2L}{c(1-\frac{v^2}{c^2})}$
+*  The round trip time is $t =  \frac{2L}{c}$. The effect of wind is that this gets modified by a factor of $\frac{1}{1-\frac{v^2}{c^2}}$.
+*   **Paradox:** The wind adds to the airplane's speed in one direction but decreases it by the same amount in the opposite direction. The difference is because of the time, so even though the distances are the same, one leg of the trip takes longer and therefore is weighted more heavily.
+
+**(b) Airplane with Wind (Round Trip Perpendicular to Wind):**
+
+*   The airplane must fly at an angle to compensate for the wind
+* The distance traveled in each direction is $\frac{L}{\cos \theta}$, where $\sin \theta = \frac{v}{c}$.
+* $\cos \theta = \sqrt{1 - \sin^2 \theta} = \sqrt{1 - \frac{v^2}{c^2}}$. Thus, the distance is $\frac{L}{\sqrt{1 - \frac{v^2}{c^2}}}$
+*   The total trip distance is  $\frac{2L}{\sqrt{1 - \frac{v^2}{c^2}}}$. The total trip time is $\frac{2L}{c\sqrt{1 - \frac{v^2}{c^2}}}$.
+*   The time is greater by a factor of $\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+
+**(c) Arrival Time Difference:**
+
+*   Time difference $\Delta t$ between the two planes is
+    *   $\frac{2L}{c(1-\frac{v^2}{c^2})} - \frac{2L}{c\sqrt{1-\frac{v^2}{c^2}}}$
+*   Using the binomial theorem we have:
+     *  $(1-z)^n \approx 1 -nz$ for $z<<1$.
+
+   *   $\frac{1}{(1-z)} \approx 1+z$
+*   $\frac{2L}{c}(1+\frac{v^2}{c^2}) - \frac{2L}{c}(1+\frac{v^2}{2c^2})$
+*   $\frac{2L}{c}\frac{v^2}{2c^2} = \frac{Lv^2}{c^3}$
+*  $dt = \frac{L}{2c}(\frac{v}{c})^2$
+
+**(d) South Pole Air Station:**
+
+*    $\Delta t = 4$ seconds
+*  We can calculate the round trip distance $L$ to the research huts as twice the distance of the radius of the circle.  So $L = 2 \times 300km = 600km$.  We can also express this in meters as $6 \times 10^5$ meters.
+*  The air speed is $c=300km/hr = 300 \times \frac{10^3}{3600} = 83.33$ m/s.
+*  We have the formula:
+   * $\Delta t = \frac{L}{2c}(\frac{v}{c})^2$
+   *  $4 = \frac{6 \times 10^5}{2 \times 83.33}(\frac{v}{83.33})^2$
+   *   $4 = 3600 (\frac{v}{83.33})^2$
+   *   $0.0011 = (\frac{v}{83.33})^2$
+   *   $v \approx 2.8$ m/s
+*   The wind direction can't be determined exactly, but it must have a component parallel to the direction of the planes with a speed of approximately 2.8 m/s
+
+**(e) Michelson-Morley Time Difference:**
+
+*   $L = 22 \text{ meters}$
+*   $v = 30 \times 10^3 \text{ m/s}$
+*   $c = 3 \times 10^8 \text{ m/s}$
+* Using the approximation for $v << c$ we have:
+
+*   $\Delta t = \frac{L}{c}(\frac{v}{c})^2 = \frac{22}{3 \times 10^8}(\frac{30 \times 10^3}{3 \times 10^8})^2 =  \frac{22}{3 \times 10^8}(\frac{9 \times 10^8}{9 \times 10^{16}}) \approx 2.2 \times 10^{-15}$ seconds.
+
+**(f) Interferometer and Sodium Light:**
+
+*  $ \lambda = 589 \times 10^{-9} \text{ meters}$
+*  $f = \frac{c}{\lambda} = \frac{3 \times 10^8}{589 \times 10^{-9}} \approx 5.09 \times 10^{14} Hz$
+    *   $T = \frac{1}{f} \approx 1.96 \times 10^{-15}$ seconds
+*   A shift of one fringe (from bright to dark to bright) requires a time difference of one period, approximately $2 \times 10^{-15}$ seconds.
+*   They found a shift less than $\frac{1}{100}$ of a fringe and a time difference of $\frac{1}{100}$ of $2 \times 10^{-15} = 2 \times 10^{-17}$.
+*  The time change from part e was $\Delta t = 2.2 \times 10^{-15}$
+* If the ether existed, we would expect a time change of $2 \times \Delta t = 4.4 \times 10^{-15}$ which is approximately 220 times larger than what was measured.
+*  This means the measured ether drift is less than $220 \times  \frac{1}{100} = \frac{1}{5.5} $ of what we expect based on Earth's speed.
+*   Therefore, the ether drift, if it exists, is less than $\frac{30 \times 10^3}{5.5}  \approx  5400 m/s$. This is approximately $\frac{1}{6}$ of Earth's orbital speed.
+
+**(g) Discussion on Ether Theory**
+
+*   The Michelson-Morley experiment by itself does not completely disprove ether theory but it shows the ether does not affect the speed of light.
+*   The ether theory can be modified to agree with the results by proposing that the ether is somehow dragged along with the Earth.
+*   However, this modified theory would not be able to explain the observed stellar aberration or the results of experiments that do not rely on the motion of the Earth as a whole, so additional experiments are needed.
 
 ### Exercise 3-13: The Kennedy-Thorndike Experiment
 
-*   **(a)** Time difference between paths:
-    *   t = 2Δl / c, where Δl = difference in path lengths
-    *  Time difference: 2 * 0.16 / (3 * 10<sup>8</sup>) ≈ 1 * 10<sup>-9</sup> seconds
-*   **(b)** Number of periods:
-    *    n = t/T = (1 * 10<sup>-9</sup> s) / (1.82 * 10<sup>-15</sup> s) ≈  5 * 10<sup>5</sup> periods
-*   **(c)** Round-trip speed of light:
-    *  c = (2/n) *  Δl / T
-    * If n remains constant as Earth orbits the Sun, then c is constant.
-*   **(d)** Fractional change in speed of light:
-    * Take the differential of the equation in part c:
-    * dc/c = -dn/n
-    * dn/n < 3/1000
-    * dc / c < 3/1000
-    * The change in the speed of light is less than 3 parts in 1000
-*   The Michelson Morley experiment was designed to detect relative motion between Earth and the ether. The Kennedy-Thorndike experiment was designed to test the assumption that the round trip speed of light is the same in all inertial frames.
-* The experiment of Kennedy and Thorndike ruled out Theory A, that length contraction was the sole consequence of movement through the ether and was consistent with Theory B which included time dilation as a result of movement through the ether, as well as the results predicted by relativity.
+This exercise explores the Kennedy-Thorndike experiment.
+
+**(a) Time Difference between Arms**
+
+*   The difference in length between the arms is $l$.
+*   The time difference is $\frac{2l}{c}$
+
+*   For $l = 16 \text{ cm} = 0.16 \text{ m}$:
+    *  $ \Delta t = \frac{2 \times 0.16 \text{ m}}{3 \times 10^8 \text{ m/s}} = 1.06 \times 10^{-9} \text{ s}$
+
+**(b) Number of Periods**
+
+*   $T = 1.820 \times 10^{-15}$ seconds
+*   $n = \frac{\Delta t}{T} = \frac{1.06 \times 10^{-9}}{1.820 \times 10^{-15}} \approx 5.8 \times 10^5 \text{ periods}$
+
+**(c) Implications of No Fringe Shift**
+
+*   If no fringe shift is observed, then $n$ is constant. The equation is $c = \frac{2l}{nT}$. All terms in this equation need to be constant for this to occur.
+* The standards are:
+ * *Distance*  is measured by the quartz in the apparatus.
+ * *Time* is measured by the period of the light source.
+*   The equation reveals that if there is no shift it implies c remains the same between frames.
+
+**(d) Differential of the Equation**
+*   We take the differential of $c = \frac{2l}{nT}$ as follows:
+
+   * $dc = \frac{d(2l)}{nT} - \frac{2l}{n^2 T}dn$
+  *   $ \frac{dc}{c} = \frac{dl}{l} - \frac{dn}{n}$
+
+*   Given $\frac{dn}{n} < \frac{3}{1000}$, then $\frac{dc}{c} < \frac{3}{1000}$ if we assume $\frac{dl}{l}$ is negligible since the materials are very stable.
+*   Historical Note:
+    *   Theory A (length contraction only) is ruled out.
+   *   Theory B (length and time contraction) is consistent, as is the simpler Einstein theory (no ether, consistent with the principle of relativity).
 
 ### Exercise 3-14: Things That Move Faster Than Light
 
-*   **(a)** Scissors Paradox
-    *   v<sub>A</sub> = v<sub>rod</sub> / sin θ
-    *   v<sub>A</sub> > c if sin θ < v<sub>rod</sub> /c
-    * The speed v<sub>A</sub> can be greater than the speed of light, and this occurs when sin θ is small. No, the motion of intersection point A cannot be used to transmit a message faster than light because it is not the motion of a physical object.
-*   **(b)** Transmission of a Hammer Pulse
-    *   No, the motion of the intersection point **cannot transmit a message** faster than light. It is not a real signal traveling at that speed.
-*   **(c)** Searchlight Messenger
-    * Yes, the speed of the light beam can exceed the speed of light, however, because this speed does not correspond to motion of matter or energy, this method **cannot transmit a message** faster than light.
-*   **(d)** Oscilloscope Writing Speed
-    *   The speed of the spot on the screen can be greater than the speed of light. However, the spot itself is not a physical entity that carries information. The information is carried by the electrons accelerating in the oscilloscope, which do not exceed light speed.
+This exercise looks at examples that appear to violate the speed of light.
+
+**(a) The Scissors Paradox:**
+
+*  $V_A = \frac{V_{rod}}{\sin\theta}$
+*   Yes, if $\sin\theta < V_{rod}$ then $V_A > c$. This occurs when $\theta$ is very small.
+*  No, this cannot be used to transmit a message faster than light. The intersection point is not a physical object, and does not carry information.
+
+**(b) Transmission of a Hammer Pulse:**
+
+*   No, this cannot transmit a message faster than light. Although the intersection point of the rod moves faster, there is no information being transmitted as this is just a visual effect, not the movement of a physical thing.
+
+**(c) Searchlight Messenger?**
+*  No. While the searchlight beam can sweep from A to B faster than a light signal, no *information* travels from A to B faster than light. A and B are simply receiving light, not a signal.
+
+**(d) Oscilloscope Writing Speed:**
+
+*   No actual physical object is moving across the screen. The writing speed is the speed at which the spot appears, the electrons themselves are not moving faster than light.
 
 ### Exercise 3-15: Four Times the Speed of Light?
 
-*   **(a)** Apparent speed of approaching rocket
-    *   Distance: L<sub>1</sub> - L<sub>2</sub> = x
-    *   Time = t<sub>1</sub> - t<sub>2</sub>  = ( L<sub>1</sub>/c - x/c) - L<sub>2</sub>/c
-    *   Apparent speed: v<sub>app</sub> = ( L<sub>1</sub> - L<sub>2</sub>) /  (( L<sub>1</sub>/c - x/c) - L<sub>2</sub>/c) = c * x/(x-v*t)
-    *  v<sub>app</sub> = x/ ((x/c) * (1 - v/c)) = c / (1-v/c)
-    * For v<sub>app</sub> = 4c: 4c = c / (1-v/c)  =>  4 -4v/c = 1 => v = 3/4c
-    *  For v<sub>app</sub> = 99c: 99c = c / (1-v/c)  =>  99 -99v/c = 1 => v = 98/99c
-*   **(b)** Apparent speed of recession of the rocket for the friend in San Francisco
-   *    v<sub>app</sub> = c / (1 + v/c)
-    * When v<sub>app</sub> = 4c for New York, v = (3/4) c
-     *   v<sub>app</sub> for San Francisco = c / (1 + 3/4) = (4/7) c.
-    *   When v<sub>app</sub> = 99c for New York, v = 98/99 c
-    *  v<sub>app</sub> for San Francisco  = c / (1+98/99) = (99/197) c ≈ 0.5c
+This exercise examines apparent speeds in relativity.
 
-### Exercise 3-16: Superluminal Expansion of Quasar 3C273
+**(a) Apparent Speed of Approaching Rocket:**
 
-*   **(a)** Earth-seen time separation
-    *   dt<sub>seen</sub> =  dt  - v*dt*cos(θ)/c
-    *   dt<sub>seen</sub> = dt (1- v*cos(θ) / c)
-*   **(b)** Earth-seen transverse distance
-    *   d<sub>seen</sub> = v*dt*sin(θ)
-*   **(c)** Apparent transverse velocity
-    *   v<sub>seen</sub> = v * sin(θ) / (1- (v/c)cos(θ))
-    *    tr<sub>seen</sub> = v* sin(θ)/( 1- v*cos(θ))
-*  **(d)**
-    *  tr<sub>seen</sub> when θ = 0: tr<sub>seen</sub> = 0
-    *  tr<sub>seen</sub> when θ = 90: tr<sub>seen</sub> = v
-    *  tr<sub>seen</sub> > c when v > c (1-vcosθ), which simplifies to cos θ < (1-c/v)
+*   **Distance between images:** Let the distance the rocket moves be $x$.
 
-    *   For θ = 45 degrees
-     *   v / (1 - v / √2) > 1
-      *  v > 1-v/√2 which implies
-      *   v > √2/(√2+1) ≈ 0.586c
-*   **(e)** Angle at which tr<sub>seen</sub> is maximum
-     * Differentiating tr<sub>seen</sub> with respect to θ and setting it equal to 0 yields cos θ<sub>max</sub> = v/c.
+*   **Time between reception:** $\Delta t_{rec} = t_2 - t_1$. The distance traveled by the light must be equal to $x$. Therefore, the time difference is related to the time the rocket travels between positions and the time it takes light to travel.  Let the time the rocket travels be $T$.  Then the distance traveled is $vT$ which is equal to $x$.
+ * $t_2 - t_1 = T + \frac{vT}{c}$.
+*  $\Delta t_{rec} = T(1+\frac{v}{c})$
+*   **Apparent speed:** $v_{\text{app}} = \frac{vT}{T(1 + \frac{v}{c})} = \frac{v}{1 - v}$
 
-*   **(f)** Maximum transverse speed for v = 0.99
-    *   tr<sub>seen,max</sub> =  v/√(1-v<sup>2</sup>)  = 0.99 /√(1 - 0.99<sup>2</sup> ) ≈ 7
-*   **(g)** Apparent speed of separation for Quasar 3C273
-    * From the figure, the distance traveled is approximately 15.5 milliarcseconds in approximately 2 years =  15.5 * 10<sup>-3</sup> * 4.85 *10<sup>-9</sup> / 2 *3.15 *10<sup>7</sup> m/s =  1.2 * 10<sup>-18</sup>
-    * The speed of the secondary source is approximately 9 times the speed of light.
+*   Given $v_{\text{app}} = 4c$, solve for $v$. $v = \frac{4}{5}c$
+* Given $v_{\text{app}} = 99c$, solve for $v$. $v = \frac{99}{100}c$
 
-### Exercise 3-17: Contraction or Rotation?
+**(b) Apparent Speed of Receding Rocket:**
 
-*   **(a)** How much earlier does light from E leave?
-    *   Distance light travels from E to O:  √(1 + x<sup>2</sup> ) ≈ 1+ x<sup>2</sup>/2. The distance from G to O is 1.
-     *The difference in time* is t  =  x / c
-    * The cube has moved x = v * t = v*x/c
-    *  x = v*x/c which implies x = 0
-     *   *Since this distance must be greater than 1, x = v*.
-    *   How far has the cube moved in this time?  v*x.
-*   **(b)** Angle of apparent rotation
-    *   tan φ  = x = v
-    *   For v --> 0, φ --> 0. For v-->1, φ --> 45 degrees
-*   **(c)** Is the word "really" appropriate in the quotes?
-    *The word "really" is not appropriate in the quotes*. Both observers are correct in their frame. They are simply measuring different phenomena, because of the relativity of simultaneity and the different path lengths light has to travel. The observer looking up at the cube has additional light travel times that must be considered.
-
-*   **(d)** How does depth perception change the view?
-   * The visual distortions created by the relativity of simultaneity and the different travel path lengths for light from different corners of the cube will be somewhat mitigated by the use of depth perception, but not eliminated. The use of depth perception will make the visual distortions less apparent, but the measurements made using a latticework of rods and clocks will not be affected.
-
-Let me know if you would like any of these solutions clarified further.
+*    $\Delta t_{rec} = t_2 - t_1 = T - \frac{vT}{c} = T(1-\frac{v}{c})$.
+*   **Apparent speed:** $v
